@@ -18,14 +18,13 @@ inputElement.addEventListener("keydown", function(event) {
     }
 });
 
-// Alternatively, you can also trigger the button click on Enter key press
 inputElement.addEventListener("keydown", function(event) {
     if (event.key === "Enter" || event.keyCode === 13) {
         buttonElement.click();
     }
 });
 
-// Add an event listener to the button element
+
 buttonElement.addEventListener("click", function() {
 });
 
